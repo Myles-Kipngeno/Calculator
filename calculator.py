@@ -1,5 +1,6 @@
 
-
+def remainder(num1, num2):
+      return num2 % num1
 def add (num1, num2):
         return num1 + num2
 def sub (num2, num1):

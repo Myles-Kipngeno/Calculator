@@ -5,13 +5,14 @@ while True:
     print("2 - Subtract")
     print("3 - Multiply ")
     print("4 - Divide")
-    print("5 - Exit")
+    print("5 -Remainder")
+    print("6 - Exit")
     option = eval(input("Choose an operation: "))
 
    
     
 
-    if option == 5:
+    if option == 6:
          print("Exiting the program...Good bye!")        
          break
     else:
@@ -28,7 +29,8 @@ while True:
                result = multiply(num1 ,num2)
          elif(option == 4):   
                result = divide(num1 ,num2) 
-                
+         elif(option == 5):
+                result = remainder(num2, num1)
          else:
                 print("Invalid operation entered.")
   
